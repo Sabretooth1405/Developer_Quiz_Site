@@ -1,6 +1,48 @@
 const htmlQuiz = [
   {
     Question:
+    "Which HTML element is used to link to a 3rd party JavaScript library and make it available on your page?",
+    Answer: "<script>",
+    Distractor1: "<input>",
+    Distractor2: "<head>",
+    Distractor3: "<html>",
+    Explanation:
+      "You can use the <script> element to link to an external 3rd party JavaScript library and connect to its API functionality.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs"
+  },
+  {
+    Question: "How many Section Heading elements are there in HTML5?",
+    Answer: "6",
+    Distractor1: "4",
+    Distractor2: "8",
+    Distractor3: "1",
+    Explanation:
+      "There are 6 Section Heading elements in HTML5.",
+    Link: "https://youtu.be/kUMe1FH4CHE?t=1219",
+  },
+  {
+    Question: "What is the font-size of the h1 heading tag?",
+    Answer: "2em",
+    Distractor1: "3em",
+    Distractor2: "3.4em",
+    Distractor3: "2.7em",
+    Explanation:
+      "The font-size of h1 element is 2em by default",
+    Link: "https://www.freecodecamp.org/news/how-to-change-text-size-in-html/",
+  },
+  {
+    Question: "How is the document type initialized in HTML5?",
+    Answer: "<!DOCTYPE HTML>",
+    Distractor1: "</DOCTYPE HTML>",
+    Distractor2: "</DOCTYPE>",
+    Distractor3: "<!HTML>",
+    Explanation:
+      "<!DOCTYPE HTML> is the DOCTYPE declaration for HTML5.",
+    Link: "https://www.freecodecamp.org/news/html5-tags-you-might-not-know/",
+  },
+  {
+    Question:
       "In HTML, what is the difference between the <div> and the <span> tag?",
     Answer:
       "<div> is used where a generic block-level tag is needed, while <span> is used where a generic inline tag is needed.",
@@ -135,7 +177,7 @@ const htmlQuiz = [
     Distractor2: "<s>",
     Distractor3: "<i>",
     Explanation:
-      "The <span> tag is used to target specific inline content such as text. This is helpful when you want to style only certains parts of the text.",
+      "The <span> tag is used to target specific inline content such as text. This is helpful when you want to style only certain parts of the text.",
     Link: "https://www.freecodecamp.org/news/span-html-how-to-use-the-span-tag-with-css/",
   },
   {

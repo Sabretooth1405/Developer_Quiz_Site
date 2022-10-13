@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which one is not a communication command?",
+    Answer: "grep",
+    Distractor1: "mesg",
+    Distractor2: "mail",
+    Distractor3: "write",
+    Explanation:
+      "The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.",
+    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
+  },
+  {
     Question:
       "Which of the following commands creates a file without opening it?",
     Answer: "touch <filename>",
@@ -22,7 +32,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Linux, which command helps in listing all the enviroment variables?",
+      "In Linux, which command helps in listing all the environment variables?",
     Answer: "printenv",
     Distractor1: "lsenv",
     Distractor2: "listenv",
@@ -768,6 +778,68 @@ const linuxQuiz = [
     Explanation:
       "The crontab command can used to perform various actions on cron jobs.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
+  },
+  {
+    Question:
+      "In Linux, which command is used to view, modify, delete, and copy partitions on a hard drive?",
+    Answer: "fdisk",
+    Distractor1: "df",
+    Distractor2: "split",
+    Distractor3: "ps",
+    Explanation:
+      "fdisk is used to view, create, delete, change, resize, copy and move partitions on a hard drive.",
+    Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/",
+  },
+  {
+    Question: "The sudo command stands for ___.",
+    Answer: "superuser do",
+    Distractor1: "su",
+    Distractor2: "superuser does",
+    Distractor3: "super do",
+    Explanation: "The sudo command stands for superuser do.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-linux-creating-a-sudo-user/",
+  },
+  {
+    Question:
+      "In Linux, which one is the correct syntax for renaming a file called abc.txt to pqr.txt?",
+    Answer: "mv abc.txt pqr.txt",
+    Distractor1: "mv pqr.txt abc.txt",
+    Distractor2: "mv -a pqr.txt abc.txt",
+    Distractor3: "mv -all pqr.txt abc.txt",
+    Explanation:
+      "The correct syntax for renaming a file called abc.txt to pqr.txt is mv abc.txt pqr.txt",
+    Link: "https://www.freecodecamp.org/news/rename-file-linux-bash-command/",
+  },
+  {
+    Question:
+      "Which Linux command is used to go up one level to a parent folder?",
+    Answer: "cd ..",
+    Distractor1: "cd",
+    Distractor2: "cd/",
+    Distractor3: "chdir",
+    Explanation:
+      ".. is a special path used to indicate the parent folder. cd .. is used to go up one level to a parent folder.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
+  },
+  {
+    Question: "What does Vim stand for?",
+    Answer: "Vi Improved",
+    Distractor1: "Vi IMitation",
+    Distractor2: "Vi Manual",
+    Distractor3: "Vi Moolenaar",
+    Explanation:
+      "Vim stands for Vi IMproved and it is a popular open-source text editor.",
+    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/",
+  },
+  {
+    Question: "Which Linux desktop environment has a similar UI to Windows?",
+    Answer: "KDE Plasma",
+    Distractor1: "GNOME",
+    Distractor2: "Xfce",
+    Distractor3: "Mate",
+    Explanation:
+      "KDE is a popular desktop environment which resembles the Windows user interface.",
+    Link: "https://www.freecodecamp.org/news/linux-basics/",
   },
 ];
 

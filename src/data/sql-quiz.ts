@@ -1,6 +1,93 @@
 const sqlQuiz = [
   {
     Question:
+      " In relational databases, which of the following allows you to uniquely identify a tuple?",
+    Answer: "Super Key",
+    Distractor1: "Schema",
+    Distractor2: "Attribute",
+    Distractor3: "Domain",
+    Explanation:
+      "Super Key is used to uniquely identify a tuple in a relation.",
+    Link: "https://en.wikipedia.org/wiki/Superkey",
+  },
+  {
+    Question: 
+      "In SQL, how can the user change 'codingWebsite' into 'freeCodeCamp' in the 'Name' column for the Users table?",
+    Answer: "UPDATE Users Set Name='freeCodeCamp' WHERE Name='codingWebsite' ",
+    Distractor1: "MODIFY Users Set Name = 'codingWebsite' WHERE Name = 'freeCodeCamp' ",
+    Distractor2: "UPDATE Users Set Name = 'codingWebsite' WHERE Name = 'freeCodeCamp' ",
+    Distractor3: "MODIFY Users Set Name = 'freeCodeCamp' WHERE Name = 'codingWebsite' ",
+    Explanation:
+      "The UPDATE command and WHERE clause are used together to change the name in a SQL table.",
+    Link: "https://www.freecodecamp.org/news/sql-update-statement-update-query-in-sql/",
+    
+  },
+  {
+    Question:
+      "In MySQL, what is the maximum string length for the VARCHAR data type?",
+    Answer: "Up to 65,535 bytes",
+    Distractor1: "255 bytes",
+    Distractor2: "256 bytes",
+    Distractor3: "Up to 65,567 bytes",
+    Explanation:
+      "The VARCHAR data type has a maximum string length range from 0 to 65535.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
+  },
+  {
+    Question:
+      "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
+    Answer: "LIKE",
+    Distractor1: "NOT",
+    Distractor2: "INSERT",
+    Distractor3: "JOIN",
+    Explanation:
+      "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+  },
+  {
+    Question: "How do you limit query results in ORACLE-SQL?",
+    Answer: "FETCH FIRST",
+    Distractor1: "LIMIT",
+    Distractor2: "TOP",
+    Distractor3: "FIRST",
+    Explanation:
+      "You can use FETCH FIRST, in newer versions of Oracle, to restrict the number of rows returned by a query.",
+    Link: "https://www.freecodecamp.org/news/row_number-in-sql-select-top-example-in-sql-and-sql-server2/",
+  },
+  {
+    Question: "In a RDBMS, what is used to create a reference between tables?",
+    Answer: "Foreign Keys",
+    Distractor1: "Candidate Keys ",
+    Distractor2: "Alternate Keys",
+    Distractor3: "Composite Keys",
+    Explanation:
+      "A foreign key is used to link two tables by making reference to another table's primary key.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-relational-database-rdbms-definition/",
+  },
+  {
+    Question:
+      "Which of the following MySQL commands shows the structure of a table?",
+    Answer: "DESCRIBE table_name;",
+    Distractor1: "SHOW table_name;",
+    Distractor2: "EXPLAIN table_name;",
+    Distractor3: "INFO table_name;",
+    Explanation:
+      "In MYSQL, the DESCRIBE command followed by the table name is used to show the structure of a table",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, how do you select every row in a given table named 'freecodecamp'?",
+    Answer: "SELECT * FROM freecodecamp",
+    Distractor1: "SELECT all FROM freecodecamp;",
+    Distractor2: "FROM freecodecamp SELECT all;",
+    Distractor3: "FROM freecodecamp SELECT *;",
+    Explanation:
+      "In SQl, SELECT is used to select data from a database. The * is a wildcard character that matches any column in the table. The FROM clause specifies the table to select from.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
       "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
     Answer: "DISTINCT",
     Distractor1: "GROUP BY",
@@ -367,8 +454,7 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
   },
   {
-    Question:
-      "In SQL, where can we access all column names within a database?",
+    Question: "In SQL, where can we access all column names within a database?",
     Answer: "INFORMATION_SCHEMA.COLUMNS",
     Distractor1: "COLUMNS",
     Distractor2: "SCHEMA.COLUMNS",
@@ -387,6 +473,28 @@ const sqlQuiz = [
     Explanation:
       "The REVOKE statement can be used to undo the action of a GRANT statement.",
     Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
+  },
+  {
+    Question:
+      "In SQL, which command erases all the updates made from the start of the transaction?",
+    Answer: "ROLLBACK",
+    Distractor1: "COMMIT",
+    Distractor2: "DELETE",
+    Distractor3: "REVOKE",
+    Explanation:
+      "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
+    Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
+  },
+  {
+    Question:
+      "Which of the following is not a distinct relationship in a SQL database?",
+    Answer: "All-to-one",
+    Distractor1: "One-to-one",
+    Distractor2: "One-to-many",
+    Distractor3: "Many-to-many",
+    Explanation:
+      "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
+    Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
 ];
 

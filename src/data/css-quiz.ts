@@ -1154,6 +1154,34 @@ const cssQuiz = [
       "The justify-content property is used to position the grid in the grid container along the x-axis.",
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
+  {
+    Question: "In CSS, which of the following options is one way to center a div?",
+    Answer: "use  display: flex; on the parent container and  margin: auto; for the child container",
+    Distractor1: "use  display: flex; on the parent container and  margin: 20px; for the child container",
+    Distractor2: "use  display: flex; on the parent container and  margin: 50px; for the child container",
+    Distractor3: "use  display: flex; on the parent container and  margin: 45%; for the child container",
+    Explanation:
+      "To center a div with CSS, apply display: flex; on the parent container and  margin: auto; for the child container.",
+    Link: "https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/"
+  },
+  {
+    Question: "In CSS, 3em units are equivalent to how much in px units?",
+    Answer: "48",
+    Distractor1: "32",
+    Distractor2: "16",
+    Distractor3: "12",
+    Explanation: "3em is equivalent to 48 pixels.",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+  },
+  {
+    Question: "What color would rgb(255,0,0) give?",
+    Answer: "Red",
+    Distractor1: "Green",
+    Distractor2: "Yellow",
+    Distractor3: "Blue",
+    Explanation: "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
+    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
+  },
 ];
 
 export default cssQuiz;

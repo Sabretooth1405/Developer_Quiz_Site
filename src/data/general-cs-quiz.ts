@@ -1,7 +1,219 @@
 const generalCSQuiz = [
   {
+    Question: "Which problems are solved using Bellman Ford's Algorithm?",
+    Answer: "Single Source Shortest Path",
+    Distractor1: "All Pair Shortest Path",
+    Distractor2: "Negative Cycle Detection",
+    Distractor3: "Minimum Spanning Tree",
+    Explanation: "Bellman Ford's algorithm is a shortest path finding algorithm for graphs that can have negative weights.",
+    Link: "https://www.freecodecamp.org/news/graph-algorithms-and-data-structures-explained-with-java-and-c-examples/",
+  },
+  {
+    Question: "Which of the following algorithms can be used to determine a minimum spanning tree in a graph?",
+    Answer: "Boruvka's algorithm",
+    Distractor1: "Breadth first search",
+    Distractor2: "Depth first search",
+    Distractor3: "Binary search",
+    Explanation: "Boruvka's algorithm can be used to determine a minimum spanning tree in a graph.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1229s",
+  },
+  {
+    Question: "Which of the following is synonymous with an articulation point in a graph?",
+    Answer: "Cut vertex",
+    Distractor1: "Cut set",
+    Distractor2: "Cut edge",
+    Distractor3: "Leaf node",
+    Explanation: "In a graph, an articulation point is the same as a cut vertex.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1213s",
+  },
+  {
+    Question: "Which of the following is synonymous with a bridge in a graph?",
+    Answer: "Cut edge",
+    Distractor1: "Cut set",
+    Distractor2: "Articulation point",
+    Distractor3: "Directed edge",
+    Explanation: "In a graph, a bridge is the same as a cut edge.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1178s",
+  },
+  {
+    Question: "Which of the following statements is true for the Traveling salesman problem?",
+    Answer: "It is an NP-Hard problem.",
+    Distractor1: "It is an NP-Complete problem.",
+    Distractor2: "It is an NP problem.",
+    Distractor3: "It is a P problem.",
+    Explanation: "Traveling salesman problem is an NP-Hard problem.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1147s",
+  },
+  {
+    Question: "Which of the following algorithms can be used for the shortest path problem for an unweighted graph?",
+    Answer: "Breadth First Search",
+    Distractor1: "Binary Search",
+    Distractor2: "Ternary Search",
+    Distractor3: "Linear Search",
+    Explanation: "Breadth First Search can be used for the shortest path problem for an unweighted graph.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=934s",
+  },
+  {
+    Question: "What is SOLID?",
+    Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
+    Distractor1:"It's a new type of Hardware",
+    Distractor2:"New kind of software",
+    Distractor3: "It's a new group of technologies",
+    Explanation:"SOLID is a set of rules and best practices to follow while creating OOP designs.",
+    Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
+  },
+  {
+    Question: "Which of the following is true for an adjacency list?",
+    Answer: "Edge weight lookup is O(E).",
+    Distractor1: "Edge weight lookup is O(1).",
+    Distractor2: "Edge weight cannot be specified in adjacency list.",
+    Distractor3: "It cannot be used to represent a cyclic graph.",
+    Explanation: "In an adjacency list, for each node only adjacent nodes are stored in a list",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=682s",
+  },
+  {
+    Question: "Which of the following is true for an adjacency matrix?",
+    Answer: "It is space efficient for representing dense graphs.",
+    Distractor1: "It is space efficient for representing sparse graphs.",
+    Distractor2: "Edge weight lookup is lower bounded by log(n).",
+    Distractor3: "Space complexity is O(n).",
+    Explanation: "If a graph is sparse then most spaces are wasted.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=620s",
+  },
+  {
+    Question: "Which of the following is true for a graph?",
+    Answer: "A graph is bipartite if and only if it is two colourable.",
+    Distractor1: "A graph is bipartite if and only if it does not contain an even length cycle.",
+    Distractor2: "A graph is bipartite if and only if it is three colourable.",
+    Distractor3: "A graph is bipartite if and only if it is a directed acyclic graph",
+    Explanation: "If a graph is two colourable then the nodes with same colour can be grouped together to form two different groups.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=440s",
+  },
+  {
+    Question: "Which of the following is true for an arborescence in graph theory?",
+    Answer: "All arborescence are Directed Acyclic Graphs (DAGs) but not all DAGs are arborescence",
+    Distractor1: "All DAGs are arborescence but not all arborescence are DAGs.",
+    Distractor2: "A strongly connected and directed graph is an arborescence.",
+    Distractor3: "A graph where the number of edges is twice the number of nodes is arborescence.",
+    Explanation: "An arborescence is a directed tree. Hence, it is a directed graph with no cycle. A graph with 4 nodes where three nodes are pointing towards a single node is not an arborescence but a DAG.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=346s",
+  },
+  {
+    Question: "What is an arborescence in graph theory?",
+    Answer: "A rooted tree in which all edges point away from the root",
+    Distractor1: "A graph having cycles",
+    Distractor2: "A strongly connected and directed graph",
+    Distractor3: "A graph where the number of edges is twice the number of nodes",
+    Explanation: "A tree is rooted if the tree has a designated node called root node such that all edges either points towards the root or points away from the root. And if all edges point away from the root then it is called arborescence.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=346s",
+  },
+  {
+    Question: "What is the term for when data is being pushed onto a full stack?",
+    Answer: "Stack Overflow",
+    Distractor1: "Underflow",
+    Distractor2: "Garbage Collection",
+    Distractor3: "Empty collection",
+    Explanation: "Stack Overflow happens when there is an attempt to push data on an already full stack.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-stacks-696b3282980/",
+  },
+  {
     Question:
-      "Which algorithm utilizes a pivot value to sort?",
+      "What is the name for an error where the programmer writes invalid syntax resulting in the program failing to run?",
+    Answer: "Syntax Error",
+    Distractor1: "Runtime Error",
+    Distractor2: "Logical Error",
+    Distractor3: "Semantic Error",
+    Explanation:
+      "A syntax error is when the programmer writes invalid code that violates the rules of that programming language.",
+    Link: "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+  },
+  {
+    Question:
+      "Which operation is used to add an item to the back of the queue?",
+    Answer: "Enqueue",
+    Distractor1: "Dequeue",
+    Distractor2: "Peek",
+    Distractor3: "isFull",
+    Explanation:
+      "Enqueue is the operation used to add an item to the back of the queue.",
+    Link: "https://www.freecodecamp.org/news/queue-data-structure-definition-and-java-example-code/",
+  },
+  {
+    Question: "Which of the following is correct about a tree?",
+    Answer: "trees are minimally connected.",
+    Distractor1: "trees can be cyclic.",
+    Distractor2: "a tree must be an undirected graph",
+    Distractor3: "trees must have at least two nodes",
+    Explanation:
+      "If we remove any edge from a tree, it creates a two disconnected graph",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=306s",
+  },
+  {
+    Question:
+      "Which of the following is a constraint for Dijkstra's Single Source Shortest Path Algorithm?",
+    Answer: "The graph must only contain non-negative edge weights.",
+    Distractor1: "The graph must be acyclic",
+    Distractor2: "The graph must be a balanced binary tree",
+    Distractor3: "The graph must have unique edge weights",
+    Explanation:
+      "Dijkstra's SSSP algorithm may not work for a graph with negative edge weights. This constraint is to ensure that once a vertex is visited, the optimal distance from source cannot be updated further.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=4832s",
+  },
+  {
+    Question: "Which of the following is the most correct statement?",
+    Answer: "Topological sort is possible only for a Directed Acyclic Graph",
+    Distractor1: "Toplogical sort is just an another name for BFS",
+    Distractor2: "All undirected graphs have topological ordering",
+    Distractor3: "A cyclic graph also has topological ordering.",
+    Explanation:
+      "The only graph that has valid topological ordering is a Directed Acyclic Graph.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=3632s",
+  },
+  {
+    Question: "What is ASCII?",
+    Answer:
+      "It is a character encoding standard to represent text in a computer.",
+    Distractor1: "Algorithm to convert decimal to number in base 65.",
+    Distractor2: "A protocol in Layer 3 of TCP/IP Suite",
+    Distractor3: "A unit of throughput for a processor.",
+    Explanation:
+      "American Standard Code for Information Interchange (ASCII) is a character encoding standard to represent text in computers.",
+    Link: "https://www.youtube.com/watch?v=LtoBGQPuu1c&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=406s",
+  },
+  {
+    Question: "Which of the following is true for Big O?",
+    Answer: "2*logn = O(n)",
+    Distractor1: "n^2 = O(n)",
+    Distractor2: "n! = O(n)",
+    Distractor3: "2^n = O(n)",
+    Explanation:
+      "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
+  },
+   {
+    Question:
+      "Between Merge sort and Quicksort, which sorting algorithm works faster in the case of larger datasets?",
+    Answer: "Merge sort",
+    Distractor1: "testing on speed between the two algorithms has been inconclusive on which one is faster",
+    Distractor2: "Quicksort",
+    Distractor3: "Both",
+    Explanation:
+      "Merge sort runs quicker than Quick sort in the case of larger datasets.",
+    Link: "https://forum.freecodecamp.org/t/the-merge-sort-algorithm-explained/16104",
+  },
+  {
+    Question:
+      "What data structure does a binary search tree degenerate to if it isn't balanced properly?",
+    Answer: "Linked List",
+    Distractor1: "Set",
+    Distractor2: "Queue",
+    Distractor3: "Dictionary",
+    Explanation:
+      "A binary search tree degenerates to a linked list if it is not balanced properly. It is balanced if the height of the left and right subtrees of any node differ by at most one.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-binary-search-tree-398267b6bff0/",
+  },
+  {
+    Question: "Which algorithm utilizes a pivot value to sort?",
     Answer: "Quick Sort",
     Distractor1: "Merge Sort",
     Distractor2: "Bubble Sort",
@@ -9,6 +221,28 @@ const generalCSQuiz = [
     Explanation:
       "Quick sort works by selecting one element (called “the pivot”) and finding the index where the pivot should end up in the sorted array.",
     Link: "https://www.freecodecamp.org/news/introduction-to-algorithms-with-javascript-examples/#quick-sort",
+  },
+  {
+    Question:
+      "Which of these sorting algorithms follows an average case time complexity of order O(nlogn)?",
+    Answer: "Merge Sort",
+    Distractor1: "Selection Sort",
+    Distractor2: "Bubble Sort",
+    Distractor3: "Insertion Sort",
+    Explanation:
+      "The average case time complexity for the merge sort algorithm is O(n log n).",
+    Link: "https://youtu.be/l7-f9gS8VOs",
+  },
+  {
+    Question:
+      "Which one of the following terms mean adding an element to the top of the stack?",
+    Answer: "Push",
+    Distractor1: "Peek",
+    Distractor2: "Pop",
+    Distractor3: "Display",
+    Explanation:
+      "The push method is used to add an element to the top of the stack.",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=3506s",
   },
   {
     Question:
@@ -135,7 +369,7 @@ const generalCSQuiz = [
     Distractor2: "Functions declared in classes",
     Distractor3: "Functions that only return numbers",
     Explanation:
-      "If functions can be sent and received just like values, than that languge is said to have first class functions. They are also called first class citizens.",
+      "If functions can be sent and received just like values, than that language is said to have first class functions. They are also called first class citizens.",
     Link: "https://www.freecodecamp.org/news/discover-the-power-of-first-class-functions-fd0d7b599b69/",
   },
   {
@@ -508,16 +742,6 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Portable_Network_Graphics",
   },
   {
-    Question: "What color would rgb(255,0,0) give?",
-    Answer: "Red",
-    Distractor1: "Green",
-    Distractor2: "Blue",
-    Distractor3: "Yellow",
-    Explanation:
-      "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
-    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
-  },
-  {
     Question: "What color would rgb(255,255,255) give?",
     Answer: "White",
     Distractor1: "Red",
@@ -727,21 +951,163 @@ const generalCSQuiz = [
   },
   {
     Question: "What is Lossless compression?",
-    Answer: "a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Answer:
+      "a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
     Distractor1: "a sorting algorithm",
     Distractor2: "a reverse algorithm",
     Distractor3: "an algorithm that converts wav files to mp3 files",
-    Explanation: "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Explanation:
+      "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
     Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
   {
-    Question: "Which data structure is used for the implementation of a recursive algorithm?",
+    Question: "What is a Nibble?",
+    Answer: "Nibble is a four-bit aggregation",
+    Distractor1: "Nibble is an algorithm",
+    Distractor2: "Nibble is a octet",
+    Distractor3: "Nibble is a device",
+    Explanation: "A Nibble is a group of four bits (half of a byte)",
+    Link: "https://en.wikipedia.org/wiki/Nibble",
+  },
+  {
+    Question:
+      "Which data structure is used for the implementation of a recursive algorithm?",
     Answer: "Stack",
     Distractor1: "Queue",
     Distractor2: "Linked list",
     Distractor3: "Tree",
-    Explanation: "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
+    Explanation:
+      "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
     Link: "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/",
+  },
+  {
+    Question: "Which one is NOT a programming paradigm?",
+    Answer: "Boolean Programming",
+    Distractor1: "Object-Oriented Programming",
+    Distractor2: "Functional Programming",
+    Distractor3: "Procedural Programming",
+    Explanation:
+      "Object-oriented programming, functional programming and procedural programming are all well known paradigms.",
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms/",
+  },
+  {
+    Question: "Which one is NOT a real logic gate?",
+    Answer: "XAND",
+    Distractor1: "AND",
+    Distractor2: "NAND",
+    Distractor3: "XNOR",
+    Explanation:
+      "The seven logic gates in boolean algebra are AND, OR, XOR, NOT, NAND, NOR, and XNOR.",
+    Link: "https://www.freecodecamp.org/news/boolean-algebra/",
+  },
+  {
+    Question: "Which type of computer network generally has the smallest size?",
+    Answer: "PAN",
+    Distractor1: "MAN",
+    Distractor2: "LAN",
+    Distractor3: "WAN",
+    Explanation:
+      "Some examples of a Personal Area Network (PAN) include tablets, video game consoles and smartphones. ",
+    Link: "https://en.wikipedia.org/wiki/Computer_network",
+  },
+  {
+    Question: "Which color model is used for printing?",
+    Answer: "CMYK",
+    Distractor1: "RGB",
+    Distractor2: "RYB",
+    Distractor3: "HSV",
+    Explanation:
+      "The CMYK color model uses subtractive colors, thus producing better results on a white background like a paper.",
+    Link: "https://en.wikipedia.org/wiki/Color_model",
+  },
+  {
+    Question: "What are the four pillars of Object-oriented programming?",
+    Answer: "Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+    Distractor1: "Objects, Methods, Properties and Fields.",
+    Distractor2: "Immutability, Purity, Transparency and State.",
+    Distractor3: "Declaration, Modeling, Evaluation and Implementaion.",
+    Explanation:
+      "Abstraction, encapsulation, inheritance, and polymorphism are software design principles to help you write clean object-oriented code.",
+    Link: "https://www.freecodecamp.org/news/four-pillars-of-object-oriented-programming/",
+  },
+  {
+    Question: "What is pseudocode?",
+    Answer:
+      "Pseudocode is fake code that is used to write programs that are easily understood.",
+    Distractor1: "An old programming language that they used back in the day.",
+    Distractor2: "A diagrammatic representation of a set of instructions",
+    Distractor3: "A specific programming language that all computers use",
+    Explanation:
+      "Pseudocode is fake code that is used to write programs in which you represent the sequence of actions and instructions (aka algorithms) in a form that humans can easily understand.",
+    Link: "https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/",
+  },
+  {
+    Question: "What is a function?",
+    Answer:
+      "Is a block of code that is self-contained behavior for the computer to run.",
+    Distractor1: "an extensible program-code-template",
+    Distractor2: "Text that does not get executed by the computer",
+    Distractor3: "container for storing data",
+    Explanation:
+      "The code inside a function runs only when it is needed, meaning only when it is called.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
+  },
+  {
+    Question: "What are loops?",
+    Answer: "Code used to run certain instructions repeatedly.",
+    Distractor1: "Code that is ran only one time",
+    Distractor2: "Code to encapsulate statements",
+    Distractor3: "Code that ends the program",
+    Explanation:
+      "A statement which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
+  },
+  {
+    Question: "What is an array?",
+    Answer: "Is a list of data",
+    Distractor1: "A variable that is assigned a single value",
+    Distractor2: "A function that loops through data",
+    Distractor3: "A programming language used for Macintosh computer",
+    Explanation:
+      "An array is a special variable, which can hold more than one value.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
+  },
+  {
+    Question: "What is the best case time complexity for the merge sort algorithm?",
+    Answer: "O(n*log(n))",
+    Distractor1: "O(n^2)",
+    Distractor2: "O(log(n))",
+    Distractor3: "O(2^n)",
+    Explanation:
+      "Merge sort is a divide and conquer algorithm that has a best case time complexity of O(n*log n)",
+    Link: "https://www.freecodecamp.org/news/an-intro-to-advanced-sorting-algorithms-merge-quick-radix-sort-in-javascript-b65842194597/",
+  },
+  {
+    Question: "What is the advanatge of using linked lists over arrays?",
+    Answer: "Linked lists helps in faster insertions and deletions than arrays",
+    Distractor1: "Memory usage in linked lists is less than arrays",
+    Distractor2: "Reverse traversal is possible in singly linked lists",
+    Distractor3: "Random accessing elements is easier in linked lists than arrays",
+    Explanation: "Linked lists have quicker insertions and deletions than arrays because there is no need to shift all other elements with lists.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-linked-lists-254c82cf5883/",
+  },
+  {
+    Question: "Which sorting algorithm is best when data is nearly sorted?",
+    Answer: "Bubble Sort",
+    Distractor1: "Merge Sort",
+    Distractor2: "Insertion Sort",
+    Distractor3: "Selection Sort",
+    Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
+    Link: "https://www.freecodecamp.org/news/bubble-sort/",
+  },
+  {
+    Question: "In which generation of computers were compilers introduced?",
+    Answer: "Third generation",
+    Distractor1: "Fourth generation",
+    Distractor2: "First generation",
+    Distractor3: "Second generation",
+    Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
+    Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
   },
 ];
 
